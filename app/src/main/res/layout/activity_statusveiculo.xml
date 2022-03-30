@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ffundo"
+    tools:context=".statusVeiculo">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/homeBtn"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/home" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/backBtn"
+        android:background="@drawable/voltar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="start"
+        android:layout_marginTop="-30dp"
+        android:layout_marginStart="8dp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Consultar Placa"
+        android:textAlignment="center"
+        android:layout_marginTop="-30dp"
+        android:textColor="@color/white"
+        android:textSize="26sp"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/etPlaca"
+        android:background="@color/white"
+        android:textColorHint="@color/black"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_gravity="start"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="30dp"
+        android:textColor="@color/black"
+        android:hint="Placa do Veículo"
+        android:textSize="11sp"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/consultarBtn"
+        android:background="@color/black"
+        android:textColorHint="@color/white"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="-30dp"
+        android:layout_marginEnd="30dp"
+        android:hint="Consultar"/>
+
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/statusTV"
+        android:background="@color/white"
+        android:hint="status do ticket e prazo."
+        android:textColorHint="@color/black"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="50dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/registraBtn"
+        android:background="@color/black"
+        android:textColorHint="@color/white"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_margin="50dp"
+        android:hint="Registar Irregularidade"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/logotipo"/>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
